@@ -1,11 +1,11 @@
 set :application, "Pierretest"
-set :repository, "https://github.com/pierrecoetzee/pierretest.git"
+set :repository, "https://git@github.com:pierrecoetzee/pierretest.git"
 default_run_options[:pty] = true 
 
 set :deploy_via, :remote_cache
 
 set :scm, :git
-set :repository, "github.com/pierrecoetzee/pierretest.git"
+set :repository, "git@github.com:pierrecoetzee/pierretest.git"
 set :scm_passphrase, ""
 set :branch, "master"
 set :user, "root"
