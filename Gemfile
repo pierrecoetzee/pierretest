@@ -23,7 +23,7 @@ gem "haml-rails"
 
 gem 'execjs'
 
-# gem 'therubyracer', :platforms => :ruby
+gem 'therubyracer', :platforms => :ruby
 
 gem 'coffee-script'
 
@@ -45,6 +45,7 @@ group :assets do
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
   gem 'uglifier', '>= 1.0.3'
+  gem 'bootstrap-sass', '~> 2.0.3.1'
 end
 
 gem 'libv8', '~> 3.11.8'
